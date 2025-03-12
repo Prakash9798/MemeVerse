@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-       {/* <DarkModeprovider>
+       <DarkModeprovider>
           <Navbar/>
        
        <Routes>
@@ -31,8 +31,8 @@ function App() {
         <Route path="/leaderboard" element={<h1>LeaderBoard</h1>}/>
       </Routes>
       
-      </DarkModeprovider> */}
-     <DarkModeToggle/>
+      </DarkModeprovider>
+     {/* <DarkModeToggle/> */}
 
     </>
   )
